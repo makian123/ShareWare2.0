@@ -1,0 +1,10 @@
+D:\C# projects\ShareWare GUI\Application\Application\obj\Debug\Application.csprojAssemblyReference.cache
+D:\C# projects\ShareWare GUI\Application\Application\obj\Debug\Application.Form1.resources
+D:\C# projects\ShareWare GUI\Application\Application\obj\Debug\Application.Properties.Resources.resources
+D:\C# projects\ShareWare GUI\Application\Application\obj\Debug\Application.csproj.GenerateResource.cache
+D:\C# projects\ShareWare GUI\Application\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
+D:\C# projects\ShareWare GUI\Application\Application\bin\Debug\Application.exe.config
+D:\C# projects\ShareWare GUI\Application\Application\bin\Debug\Application.exe
+D:\C# projects\ShareWare GUI\Application\Application\bin\Debug\Application.pdb
+D:\C# projects\ShareWare GUI\Application\Application\obj\Debug\Application.exe
+D:\C# projects\ShareWare GUI\Application\Application\obj\Debug\Application.pdb
