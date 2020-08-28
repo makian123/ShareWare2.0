@@ -28,13 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.keyTextBox = new System.Windows.Forms.TextBox();
+            this.genButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // keyTextBox
+            // 
+            this.keyTextBox.Location = new System.Drawing.Point(242, 177);
+            this.keyTextBox.MaxLength = 16;
+            this.keyTextBox.Name = "keyTextBox";
+            this.keyTextBox.ReadOnly = true;
+            this.keyTextBox.Size = new System.Drawing.Size(276, 20);
+            this.keyTextBox.TabIndex = 0;
+            this.keyTextBox.TextChanged += new System.EventHandler(this.keyTextBox_TextChanged);
+            // 
+            // genButton
+            // 
+            this.genButton.Location = new System.Drawing.Point(443, 219);
+            this.genButton.Name = "genButton";
+            this.genButton.Size = new System.Drawing.Size(75, 23);
+            this.genButton.TabIndex = 1;
+            this.genButton.Text = "Generate";
+            this.genButton.UseVisualStyleBackColor = true;
+            this.genButton.Click += new System.EventHandler(this.genButton_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.genButton);
+            this.Controls.Add(this.keyTextBox);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox keyTextBox;
+        private System.Windows.Forms.Button genButton;
     }
 }
 
